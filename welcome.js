@@ -1,7 +1,7 @@
-let firstName = 'Alice'
-let gender = 'female'
+let firstName = 'bob'
+let gender = 'male'
 let e = 'e'
 
-let checkE = gender != 'male' ? e : e = ''
+let checkGender = gender != 'male' ? e : e = ''
 
 console.log(`Bonjour ${firstName}, vous êtes entré${e} sur le chan`)
